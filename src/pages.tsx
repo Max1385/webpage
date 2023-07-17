@@ -1,13 +1,14 @@
 import { css } from "@emotion/react";
 import { Title } from "react-head";
 import { Link } from "react-router-dom";
-import Typed from 'typed.js';
-import { useEffect, useRef } from "react";
+import Typed from 'typed.js'; // import from typed.js library
+import { useEffect, useRef } from "react"; // urgent to use for typed.js animation
 
+// Social media links
 const BlobLumaSnow = new URL("./media/abloblumasnow.gif", import.meta.url);
 const GitHub = new URL("./media/github.svg", import.meta.url);
 const Mail = new URL("./media/mail.svg", import.meta.url);
-// const YouTube = new URL("./media/youtube.svg", import.meta.url); / wird nicht mehr benötigt
+
 const Twitter = new URL("./media/twitter.svg", import.meta.url);
 const Drive = new URL("./media/drive.svg", import.meta.url);
 const Discord = new URL("./media/discord.svg", import.meta.url);
@@ -19,8 +20,7 @@ const holder = css({
 const link = css({
   padding: "0.75em",
   "&:focus, &:hover": {
-    filter: "invert(0.5) sepia(1) hue-rotate(558deg) saturate(10)",
-    // Hier sind verschiedene Filterwerte angewendet, um den gewünschten dunkelblauen Farbton zu erzielen.
+    filter: "invert(0.5) sepia(1) hue-rotate(558deg) saturate(10)", // different filters were applied here to make the links turn blue when hovering with the mouse
   },
   "@media (prefers-color-scheme: dark)": {
     filter: "invert(1)",
@@ -28,13 +28,13 @@ const link = css({
 });
 
 const autoType = css({
-  color: "#542CF2", // färben des textes
+  color: "#542CF2", // required to color the typed.js text
 });
 
 export function Home() {
   useEffect(() => {
     var typed = new Typed('#auto-type', {
-      strings: ["Server-Owner", "Bot-Developer", "Designer", "Moderator"],
+      strings: ["Server-Owner", "Bot-Developer", "Designer", "Moderator"], // typed.js library is applied here
       typeSpeed: 80,
       backSpeed: 80,
       loop: true
@@ -76,7 +76,7 @@ export function Home() {
   );
 }
 
-export function NotFound() {
+export function NotFound() { // if the website was not found, or wrong link
   return (
     <>
       <Title>Not Found - Max1385</Title>

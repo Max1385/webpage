@@ -10,7 +10,7 @@ const BlobLuma = new URL("./media/blobluma.png", import.meta.url);
 const app = css({
   marginTop: "15%",
   textAlign: "center",
-  fontFamily: "Courier New, Courier, monospace",
+  fontFamily: "'Open Sans', sans-serif", // font was adjusted
 });
 
 export default function App() {
