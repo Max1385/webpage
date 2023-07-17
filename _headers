@@ -1,6 +1,6 @@
-https://lostluma.pages.dev/*
+https://max1385.netlify.app/*
   X-Robots-Tag: noindex
-  Link: <https://lostluma.net/:splat>; rel="canonical"
+  Link: <https://max1385.netlify.app/:splat>; rel="canonical"
 
-https://:commit.lostluma.pages.dev/*
-  Link: <https://lostluma.net/:splat>; rel="canonical"
+https://:max1385.netlify.app/*
+  Link: <https://max1385.netlify.app/:splat>; rel="canonical"
