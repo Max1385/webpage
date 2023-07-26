@@ -1,9 +1,8 @@
+[![GitHub license](https://img.shields.io/badge/license-AGPL_3.0-blue.svg)](https://raw.githubusercontent.com/Max1385/webpage/master/LICENSE)
+
 <img src="https://raw.githubusercontent.com/Max1385/webpage/master/preview.png" width="450px" title="Preview image of the webpage (darkmode)" />
 
 # Webpage
-
-[![GitHub license](https://img.shields.io/badge/license-AGPL_3.0-blue.svg)](https://raw.githubusercontent.com/Max1385/webpage/master/LICENSE)
-
 
 This project was forked from [here](https://github.com/LostLuma/website).
 
