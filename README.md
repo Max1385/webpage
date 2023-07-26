@@ -1,5 +1,7 @@
+<img src="https://raw.githubusercontent.com/Max1385/webpage/master/preview.png" width="450px" title="Preview image of the webpage (darkmode)" />
+
 # Webpage
-<img src="[https://raw.githubusercontent.com/mattboldt/typed.js/master/logo-cropped.png](https://us-east-1.tixte.net/uploads/max1385.no-friends.xyz/1fOplEdl.png)" width="450px" title="Typed.js" />
+
 [![GitHub license](https://img.shields.io/badge/license-AGPL_3.0-blue.svg)](https://raw.githubusercontent.com/Max1385/webpage/master/LICENSE)
 
 
